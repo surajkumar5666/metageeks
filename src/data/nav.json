@@ -1,0 +1,69 @@
+[
+    {
+        "id": "1",
+        "label": "Home",
+        "link": "/",
+        "icon": false   
+    },
+    {
+        "id": "2",
+        "label": "Services",
+        "link": "/service",
+        "icon": true
+        
+    },
+    
+    {
+        "id": "5",
+        "label": "Industries",
+        "link": "/industry",
+        "icon": true,
+        "subMenu": [
+            {
+                "id": "1",
+                "label": "Banking",
+                "link": "/industry/banking"
+            },
+            {
+                "id": "2",
+                "label": "Insurance",
+                "link": "/industry/insurance"
+            },
+            {
+                "id": "3",
+                "label": "Financial Services",
+                "link": "/industry/financial-services"
+            },
+            {
+                "id": "4",
+                "label": "Healthcare",
+                "link": "/industry/healthcare"
+            },
+            {
+                "id": "5",
+                "label": "Ed Tech",
+                "link": "/industry/ed-tech"
+            }
+        ]         
+    },
+     {
+        "id": "4",
+        "label": "Case Studies",
+                "link": "/case-study",
+        "icon": false
+        
+    },
+    {
+        "id": "3",
+        "label": "About",
+        "link": "/about-us",
+        "icon": false
+        
+    },
+    {
+        "id": "6",
+        "label": "Contact",
+        "link": "/contact-us",
+        "icon": false
+    }
+]
