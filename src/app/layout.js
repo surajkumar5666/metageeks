@@ -17,7 +17,7 @@ import BootstrapStyleWrapper from "@/components/BoostrapStyleWarapper";
 import { GoogleTagManager } from "@next/third-parties/google";
 import Script from "next/script";
 import * as uuid from 'uuid';
-import Chatbot from "@/components/chatbot/Chatbot";
+import ChatbotWidget from "@/components/chatbot/Chatbot";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -75,8 +75,8 @@ export default async function RootLayout({ children }) {
       <body>
         <BootstrapStyleWrapper>{children}</BootstrapStyleWrapper>
 
-        <Chatbot/>
       </body>
+      <ChatbotWidget/>
       {/* <GoogleAnalytics gaId="G-F99PDVQRH5" /> */}
       <GoogleTagManager gtmId="GTM-K5VV2K23" />
 
